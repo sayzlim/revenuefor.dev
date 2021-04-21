@@ -68,7 +68,7 @@ header, main, footer { grid-column: 1/-1; }
 
 main { margin-top: 2em; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px 16px; }
 
-@media only screen and (min-width: 320px) and (max-width: 759px) { main { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px 16px; } }
+@media only screen and (min-width: 320px) and (max-width: 759px) { html { font-size: 14px; } main { display: grid; grid-template-columns: repeat(1, 1fr); gap: 20px 16px; } }
 
 .card { display: flex; align-items: start; position: relative; padding: 1em; overflow: hidden; flex-direction: column; color: #000411; border-radius: 8px; background-color: #e3f0e7; }
 
