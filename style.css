@@ -34,7 +34,7 @@ img { display: block; max-width: 100%; }
 
 li { transition: background-color 0.18s ease-in-out, color 0.18s ease-in-out, border-color 0.18s ease-in-out; }
 
-a { transition: background-color 0.18s ease-in-out, color 0.18s ease-in-out, border-color 0.18s ease-in-out; text-decoration: none; color: #efcc68; }
+a { text-decoration: none; color: #efcc68; }
 
 a:not([class]) { color: #efcc68; }
 
