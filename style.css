@@ -88,9 +88,11 @@ main { margin-top: 2em; display: grid; grid-template-columns: repeat(4, 1fr); ga
 
 .card .learn-more:after { margin-left: 5px; content: '•••'; }
 
-nav { display: flex; flex-wrap: wrap; gap: .5em; margin-top: 1em; }
+nav { display: flex; margin-top: 1em; flex-wrap: wrap; width: calc(100% + 10px); transform: translateX(-5px); }
 
 nav .tag { padding: 5px 8px; font-size: 0.75rem; font-weight: 600; color: #000411; border-radius: 4px; background-color: #efcc68; }
+
+nav .tag { margin: 5px; }
 
 .carbon-box { margin-top: 2em; height: 100px; }
 
